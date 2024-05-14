@@ -3,9 +3,8 @@ def setup(app):
     app.add_css_file('custom.css')
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Comsign'
+copyright = '© 2020–2024 Comsign.'
 
 release = '0.1'
 version = '0.1.0'
