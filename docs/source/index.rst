@@ -20,5 +20,5 @@ Contents
 
    usage
    api
-   wordpress
+   generators/wordpress
    generators/safepage
