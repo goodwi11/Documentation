@@ -1,19 +1,29 @@
+/* version */
 .rst-current-version {
   display: none !important;
 }
 
+/* leftbar main */
 .wy-nav-side {
   background-color: #000 !important;
 }
 
+/* leftbar top */
 .wy-side-nav-search {
   background-color: transparent !important;
 }
 
-.footer {
+/* full footer */
+footer {
   display: none !important;
 }
 
+/* edit on github */
+.wy-breadcrumbs-aside {
+  display: none !important;
+}
+
+/* syntax with color and border */
 .rst-content code, .rst-content tt, code {
   border: none !important;
 }
