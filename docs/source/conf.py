@@ -1,5 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
-
+def setup(app):
+    app.add_css_file('custom.css')
 # -- Project information
 
 project = 'Lumache'
@@ -31,7 +32,7 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 html_static_path = ['_static']
-html_css_files = ['css/custom.css']
+html_css_files = ['custom.css']
 
 html_logo = 'img/logo.svg'
 html_theme_options = {
