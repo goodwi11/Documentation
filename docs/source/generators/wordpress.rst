@@ -1,9 +1,5 @@
-Wordpress
+WordPress Generator
 =====
 
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+For example you gay
 
