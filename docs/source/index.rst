@@ -24,5 +24,6 @@ Contents
    generators/wordpress
    generators/safepage
    generators/gp
+   generators/ap
 
 
