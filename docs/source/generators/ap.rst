@@ -1,5 +1,5 @@
-App Store Generator
-===================
+AppStore Generator
+==================
 
 Обзор
 -----

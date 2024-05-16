@@ -1,5 +1,5 @@
-Google Play Generator
-=====================
+GooglePlay Generator
+====================
 
 Обзор
 -----
