@@ -18,7 +18,6 @@ Contents
 
 .. toctree::
 
-   usage
    view
    recommend
    generators/wordpress
