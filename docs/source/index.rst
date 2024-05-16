@@ -24,5 +24,6 @@ Contents
    generators/safepage
    generators/gp
    generators/ap
+   api
 
 
