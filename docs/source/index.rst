@@ -22,5 +22,5 @@ Contents
    view
    recommend
    generators/wordpress
-   generators/safepages
+   generators/safepage
 
