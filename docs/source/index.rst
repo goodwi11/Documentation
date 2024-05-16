@@ -25,5 +25,6 @@ Contents
    generators/gp
    generators/ap
    api
+   clo
 
 
