@@ -23,4 +23,6 @@ Contents
    recommend
    generators/wordpress
    generators/safepage
+   generators/gp
+
 
