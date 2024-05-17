@@ -21,8 +21,8 @@ WordPress PHP версия отличается от WordPress HTML наличи
 * Установленное расширение PHP Data Objects (PDO).
 * становленный драйвер PDO_SQLITE.
 
-Файлы вайта необходимо загружать на сервер или хостинг, только через FTP-клиент.
-Файлы вайта необходимо размещать только в корневой папке.
+| Файлы вайта необходимо загружать на сервер или хостинг, только через FTP-клиент.
+| Файлы вайта необходимо размещать только в корневой папке.
 
 Возможные ошибки и их решения:
 ------------------------------
@@ -30,11 +30,13 @@ WordPress PHP версия отличается от WordPress HTML наличи
 
 | 2. **“Error establishing a database connection” (данная ошибка не исключает проблем с системными требованиями).** - при получении данной ошибки необходимо проверить следующее:
 
-| *В zip файле -> /wp-include/version.php -> $wp_db_version = 51917*.
-| *В cpanel -> phpmyadmin -> table wp_options -> db_version*.
+.. note::
 
-| *В zip файле -> /wp-include/version.php -> $wp_version = 6.0*.
-| *В cpanel -> phpmyadmin -> table wp_options -> wp_version*.
+ | *В zip файле -> /wp-include/version.php -> $wp_db_version = 51917*.
+ | *В cpanel -> phpmyadmin -> table wp_options -> db_version*.
+
+ | *В zip файле -> /wp-include/version.php -> $wp_version = 6.0*.
+ | *В cpanel -> phpmyadmin -> table wp_options -> wp_version*.
 
 Версии в файлах вайта и на вашем сервере/хостинге должны совпадать.
 Если проблема останется или будет получена другая ошибка, то необходимо проверить сервер или хостинг на соответствие системным требованиям.
