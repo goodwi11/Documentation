@@ -112,12 +112,12 @@ Uzbek - uz_UZ
 Vietnamese - vi_VN 
 Zulu - zu_ZA
 
-=====  ===== 
-  A      B    
-=====  =====  
-False  False  
-True   False  
-False  True   
-True   True  
-=====  =====  
+========  ===== 
+  Язык     Код    
+========  =====  
+False     False  
+True      False  
+False     True   
+True      True  
+========  =====  
 
