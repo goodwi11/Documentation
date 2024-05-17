@@ -31,16 +31,21 @@ GET-параметры
 
 *https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=Elon Musk,Spaceship&domain=elonmusk.com&lang=en_US&product=wp&sid=&target=food&zip=true*
 
-===================================
-
 Коды доступных языков для генерации
 
-===================================
+==========    ======
 
-Afrikaans - af_ZA  
-Albanian - sq_AL  
-Amharic - am_ET  
-Arabian - ar_SA  
+Язык          Код
+
+==========    ======
+
+Afrikaans     af_ZA  
+Albanian      sq_AL  
+Amharic       am_ET  
+Arabian       ar_SA 
+
+==========    ======
+
 Armenian - hy_AM  
 Azerbaijanian - az_AZ  
 Belarusian - be_BY  
@@ -104,4 +109,4 @@ Uzbek - uz_UZ
 Vietnamese - vi_VN 
 Zulu - zu_ZA
 
-===================================
+
