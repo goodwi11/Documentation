@@ -33,7 +33,7 @@ GET-параметры
 
 Коды доступных языков для генерации:
 
-|Albanian - sq_AL  
+| Albanian - sq_AL  
 | Amharic - am_ET  
 | Arabian - ar_SA  
 | Armenian - hy_AM  
