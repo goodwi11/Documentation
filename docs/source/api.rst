@@ -32,6 +32,6 @@ GET-параметры
 *https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=Elon Musk,Spaceship&domain=elonmusk.com&lang=en_US&product=wp&sid=&target=food&zip=true*
 
 .. spoiler:: Коды доступных языков для генерации
- 
- **Afrikaans - af_ZA**  
+
+     **Afrikaans - af_ZA**  
  
