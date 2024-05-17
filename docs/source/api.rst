@@ -31,6 +31,71 @@ GET-параметры
 
 *https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=Elon Musk,Spaceship&domain=elonmusk.com&lang=en_US&product=wp&sid=&target=food&zip=true*
 
-Коды основных языков для генерации:
+.. spoiler:: Коды доступных языков для генерации
 
-vi_VN, th_TH, sl_SL, sk_SK, sr_RS, ro_RO, mn_MN, ms_MY, mk_MK, lt_LT, lv_LV, ko_KR, kk_KZ, ja_JP, ga_IE, id_ID, is_IS, hu_HU, he_IL, el_GR, nl_NL, hr_HR, zh_CH, be_BY, az_AZ, hy_AM, ka_GE, cs_CZ, bg_BG, ar_SA, af_ZA, uk_UA, it_IT, ru_RU, en_US, de_DE, es_ES, pl_PL, sv_SE, fi_FI, fr_FR, pt_PT, tr_TR, hi_IN, et_EE, da_DK, no_NO, bn_BD
+ Afrikaans - af_ZA  
+ Albanian - sq_AL  
+ Amharic - am_ET  
+ Arabian - ar_SA  
+ Armenian - hy_AM  
+ Azerbaijanian - az_AZ  
+ Belarusian - be_BY  
+ Bengal - bn_BD  
+ Bulgarian - bg_BG  
+ Burmese - my_MM  
+ Chinese - zh_CH  
+ Croatian - hr_HR  
+ Czech - cs_CZ  
+ Danish - da_DK  
+ Dutch - nl_NL  
+ English - en_US  
+ Estonian - et_EE  
+ Faroese - fo_FO  
+ Finnish - fi_FI  
+ French - fr_FR  
+ Georgian - ka_GE  
+ German - de_DE  
+ Greek - el_GR  
+ Guarani - gn_PY  
+ Hebrew - he_IL  
+ Hindi - hi_IN  
+ Hungarian - hu_HU  
+ Icelandic - is_IS  
+ Indonesian - id_ID  
+ Irish - ga_IE  
+ Italian - it_IT  
+ Japanese - ja_JP  
+ Kazakh - kk_KZ  
+ Khmer - km_KH  
+ Korean - ko_KR  
+ Kyrgyz - ky_KG  
+ Lao - lo_LA  
+ Latvian - lv_LV  
+ Lithuanian - lt_LT  
+ Luxembourgish - lb_LU  
+ Macedonian - mk_MK  
+ Malay - ms_MY  
+ Maltese - mt_MT  
+ Mongolian - mn_MN  
+ Norwegian - no_NO  
+ Persian - fa_IR  
+ Polish - pl_PL  
+ Portuguese - pt_PT  
+ Punjabi - pa_IN  
+ Romanian - ro_RO  
+ Russian - ru_RU  
+ Serbian - sr_RS  
+ Slovenian - sl_SL  
+ Spanish - es_ES  
+ Swahili - sw_KE  
+ Swati - ss_SZ  
+ Swedish - sv_SE  
+ Telugu - te_IN  
+ Thai - th_TH  
+ Turkish - tr_TR  
+ Turkmen - tk_TM  
+ Ukrainian - uk_UA  
+ Urdu - ur_PK  
+ Uzbek - uz_UZ  
+ Vietnamese - vi_VN  
+ Zulu - zu_ZA
