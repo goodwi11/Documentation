@@ -33,23 +33,23 @@ GET-параметры
 
 Коды доступных языков для генерации
 
-==========    ======
+  ==========    ======
 
-Язык          Код
+  Язык          Код
 
-==========    ======
+  ==========    ======
 
-Afrikaans     af_ZA  
-Albanian      sq_AL  
-Amharic       am_ET  
-Arabian       ar_SA 
+  Afrikaans     af_ZA  
+  Albanian      sq_AL  
+  Amharic       am_ET  
+  Arabian       ar_SA 
 
-==========    ======
+  ==========    ======
 
 Armenian - hy_AM  
 Azerbaijanian - az_AZ  
 Belarusian - be_BY  
-Bengal - bn_BD  
+Bengal - bn_BD  	
 Bulgarian - bg_BG  
 Burmese - my_MM  
 Chinese - zh_CH  
