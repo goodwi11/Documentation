@@ -99,9 +99,6 @@ GET-параметры
 | Vietnamese - vi_VN 
 | Zulu - zu_ZA
 
-.. spoiler:: Answer to the Ultimate Question of Life, the Universe, and Everything
-
-   **42**
 
 
 
