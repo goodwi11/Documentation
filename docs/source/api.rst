@@ -26,7 +26,6 @@ GET-параметры
 Для генерации вайта (предпросмотра или ZIP-архива) нужно отправить HTTP GET-запрос на URL https://api.comsign.io/v2, указав настройки для генерации в URL-параметрах.
 
 - product - выбор генератора:
-
  * sf – SafePage генератор. 
  * gp – GooglePlay генератор. 
  * ap – AppStore генератор. 
@@ -119,7 +118,12 @@ GET-параметры
 | Vietnamese - vi_VN 
 | Zulu - zu_ZA
 
-
+========  ======
+Язык      Код
+========  ======
+Albanian  sq_AL 
+Amharic   am_ET  
+========  ======
 
 
 
