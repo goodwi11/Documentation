@@ -48,9 +48,7 @@ GET-параметры
 | * sid – параметр необходимый для интеграции потока с клоакой. Вытягивает фильтрационный файл filter.php и записывает index.php.
 | Для активации параметра необходимо подставить ключ stream_id из потока Adspect.
 
-Пример релевантной URL-ссылки для работы с API:
-
-Block in condensed syntax::
+Пример релевантной URL-ссылки для работы с API::
 
  https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=Elon Musk,Spaceship&domain=elonmusk.com&lang=en_US&product=wp&sid=&target=food&zip=true
 
