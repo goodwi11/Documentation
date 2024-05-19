@@ -34,13 +34,13 @@ WordPress PHP версия отличается от WordPress HTML наличи
 ------------------------------
 | 1. **“There has been a critical error on this website”.** - данная ошибка свидетельствует лишь о том, что сервер или хостинг не соответствует системным требованиям и требованиям по размещению файлов. Дополнительно проверьте все настройки или обратитесь в службу поддержки вашего сервера или хостинга, чтобы вам могли точно адаптировать конфигурацию под наши требования.
 
-| 2. **“Error establishing a database connection” (данная ошибка не исключает проблем с системными требованиями).** - при получении данной ошибки необходимо проверить следующее:
+| 2. **“Error establishing a database connection” (данная ошибка не исключает проблем с системными требованиями).** - при получении данной ошибки необходимо проверить следующее::
 
-| *В zip файле -> /wp-include/version.php -> $wp_db_version = 51917*.
-| *В cpanel -> phpmyadmin -> table wp_options -> db_version*.
+ | *В zip файле -> /wp-include/version.php -> $wp_db_version = 51917*.
+ | *В cpanel -> phpmyadmin -> table wp_options -> db_version*.
 
-| *В zip файле -> /wp-include/version.php -> $wp_version = 6.0*.
-| *В cpanel -> phpmyadmin -> table wp_options -> wp_version*.
+ | *В zip файле -> /wp-include/version.php -> $wp_version = 6.0*.
+ | *В cpanel -> phpmyadmin -> table wp_options -> wp_version*.
 
 Версии в файлах вайта и на вашем сервере/хостинге должны совпадать.
 Если проблема останется или будет получена другая ошибка, то необходимо проверить сервер или хостинг на соответствие системным требованиям.
