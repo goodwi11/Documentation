@@ -118,12 +118,19 @@ GET-параметры
 | Vietnamese - vi_VN 
 | Zulu - zu_ZA
 
+
 ========  ======
+
 Язык      Код
+
 ========  ======
+
 Albanian  sq_AL 
 Amharic   am_ET  
+
 ========  ======
+
+
 
 
 
