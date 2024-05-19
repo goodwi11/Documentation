@@ -32,17 +32,15 @@ GET-параметры
 | wp – Word Press (HTML) gen.,
 | wp&php=1 – Word Press (PHP) gen.
 
-* keywords – ключевые слова для интеграции в вайт, прописывать через запятую
+| * keywords – ключевые слова для интеграции в вайт, прописывать через запятую
 
-* domain – доменное имя для интеграции в tos&privacy, прописывать в формате *https://example.com* или *example.com*
+| * domain – доменное имя для интеграции в tos&privacy, прописывать в формате *https://example.com* или *example.com*
 
-* lang – выбор необходимого языка для генерации. Прописывать в формате: язык_СТРАНА
+| * lang – выбор необходимого языка для генерации. Прописывать в формате: язык_СТРАНА
 
-* product – выбор генератора : sf – SafePage gen., gp – GooglePlay gen., ap – AppStore gen., wp – Word Press (HTML) gen., wp&php=1 – Word Press (PHP) gen.
+| * seed – номер генерации шаблона, случайный набор букв или цифр. Если значение параметра будет пустым, то seed сформируется автоматически
 
-* seed – номер генерации шаблона, случайный набор букв или цифр. Если значение параметра будет пустым, то seed сформируется автоматически
-
-* target – тема или URL для наполнения вайта контентом. Для генераторов WP и SF необходимо прописать одну из доступных тем. Для генераторов Google Play и App Store используется URL-ссылка.
+| * target – тема или URL для наполнения вайта контентом. Для генераторов WP и SF необходимо прописать одну из доступных тем. Для генераторов Google Play и App Store используется URL-ссылка.
 
 | * zip=true – будет отдан ZIP-файл с вайтом. При активном параметре будет списываться лимит скаичваний. Если параметра «zip» нет, то вместо файла будет отдано превью.
 | Если параметра «zip» нет, то вместо файла будет отдано PNG превью. 
@@ -52,7 +50,9 @@ GET-параметры
 
 Пример релевантной URL-ссылки для работы с API:
 
-*https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=Elon Musk,Spaceship&domain=elonmusk.com&lang=en_US&product=wp&sid=&target=food&zip=true*
+Block in condensed syntax::
+
+ https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=Elon Musk,Spaceship&domain=elonmusk.com&lang=en_US&product=wp&sid=&target=food&zip=true
 
 Коды доступных языков для генерации:
 
