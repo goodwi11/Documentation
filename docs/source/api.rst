@@ -50,7 +50,8 @@ GET-параметры
 
  https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,example page&domain=example.com&lang=en_US&product=wp&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
 
-Коды доступных языков для генерации:
+Коды доступных языков
+---------------------
 
 .. | Albanian - sq_AL  
 .. | Amharic - am_ET  
