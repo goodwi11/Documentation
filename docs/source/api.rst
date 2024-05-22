@@ -32,14 +32,14 @@ GET-параметры
    * - Обязательно
      - Параметр
      - Для чего
-   * - +
+   * - :icon:`oi-view-pivot`
      - ``product``
      - выбор генератора:
-       * sf – SafePage генератор. 
-       * gp – GooglePlay генератор. 
-       * ap – AppStore генератор. 
-       * wp – Word Press (HTML) генератор.
-       * wp&php=1 – Word Press (PHP) генератор.
+       + sf – SafePage генератор. 
+       + gp – GooglePlay генератор. 
+       + ap – AppStore генератор. 
+       + wp – Word Press (HTML) генератор.
+       + wp&php=1 – Word Press (PHP) генератор.
    * - -
      - ``keywords``
      - ключевые слова для интеграции в вайт, прописывать через запятую.
