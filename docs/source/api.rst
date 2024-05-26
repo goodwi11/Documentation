@@ -34,13 +34,12 @@ GET-параметры
      - Для чего
    * - Да
      - ``product``
-     - выбор генератора:
-     
-        * sf – SafePage генератор. 
-        * gp – GooglePlay генератор. 
-        * ap – AppStore генератор. 
-        * wp – Word Press (HTML) генератор.
-        * wp&php=1 – Word Press (PHP) генератор.
+     -  | выбор генератора:
+        | * sf – SafePage генератор. 
+        | * gp – GooglePlay генератор. 
+        | * ap – AppStore генератор. 
+        | * wp – Word Press (HTML) генератор.
+        | * wp&php=1 – Word Press (PHP) генератор.
    * - Да
      - ``target``
      - тема или URL для наполнения вайта контентом. Для генераторов WP и SF необходимо прописать одну из доступных тем. Для генераторов Google Play и App Store используется URL-ссылка.
