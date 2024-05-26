@@ -35,6 +35,7 @@ GET-параметры
    * - Да
      - ``product``
      - выбор генератора:
+     
         * sf – SafePage генератор. 
         * gp – GooglePlay генератор. 
         * ap – AppStore генератор. 
