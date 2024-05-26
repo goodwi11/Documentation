@@ -35,11 +35,6 @@ GET-параметры
    * - Да
      - product
      - выбор генератора:
-      sf – SafePage генератор. 
-      gp – GooglePlay генератор. 
-      ap – AppStore генератор. 
-      wp – Word Press (HTML) генератор.
-      wp&php=1 – Word Press (PHP) генератор.
    * - 
      - keywords
      - ключевые слова для интеграции в вайт, прописывать через запятую.
