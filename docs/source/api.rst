@@ -23,7 +23,7 @@
 GET-параметры
 -------------
 
-Для генерации вайта (предпросмотра или ZIP-архива) нужно отправить HTTP GET-запрос на URL *https://api.comsign.io/v2*, указав настройки для генерации в URL-параметрах.
+Для генерации вайта (предпросмотра или ZIP-архива) нужно отправить HTTP GET-запрос на URL *https://api.comsign.io/v2*, указав настройки для генерации в URL-параметрах. 
 
 .. list-table::
    :header-rows: 1
@@ -35,11 +35,11 @@ GET-параметры
    * - 
      - ``product``
      - выбор генератора:
-       + sf – SafePage генератор. 
-       + gp – GooglePlay генератор. 
-       + ap – AppStore генератор. 
-       + wp – Word Press (HTML) генератор.
-       + wp&php=1 – Word Press (PHP) генератор.
+         - sf – SafePage генератор. 
+         - gp – GooglePlay генератор. 
+         - ap – AppStore генератор. 
+         - wp – Word Press (HTML) генератор.
+         - wp&php=1 – Word Press (PHP) генератор.
    * - -
      - ``keywords``
      - ключевые слова для интеграции в вайт, прописывать через запятую.
