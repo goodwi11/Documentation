@@ -44,22 +44,22 @@ GET-параметры
      - ``target``
      -  | Тема или URL для наполнения вайта контентом. 
         | Для генераторов WP и SF необходимо прописать одну из доступных тем:
-        | beauty
-        | travel
-        | music
-        | food
-        | science
-        | gaming
-        | energy
-        | news
-        | sport
-        | tech
-        | world
-        | finance
-        | politics
-        | business
-        | economics
-        | entertainment 
+        | *beauty*
+        | *travel*
+        | *music*
+        | *food*
+        | *science*
+        | *gaming*
+        | *energy*
+        | *news*
+        | *sport*
+        | *tech*
+        | *world*
+        | *finance*
+        | *politics*
+        | *business*
+        | *economics*
+        | *entertainment*
         | Для генераторов Google Play и App Store используется URL-ссылка.
    * - Нет
      - ``keywords``
