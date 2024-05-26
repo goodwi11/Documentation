@@ -35,31 +35,31 @@ GET-параметры
    * - Да
      - ``product``
      -  | Выбор генератора:
-        | **sf** – SafePage генератор. 
-        | **gp** – GooglePlay генератор. 
-        | **ap** – AppStore генератор. 
-        | **wp** – Word Press (HTML) генератор.
-        | **wp&php=1** – Word Press (PHP) генератор.
+        | ``sf`` – SafePage генератор. 
+        | ``gp`` – GooglePlay генератор. 
+        | ``ap`` – AppStore генератор. 
+        | ``wp`` – Word Press (HTML) генератор.
+        | ``wp&php=1`` – Word Press (PHP) генератор.
    * - Да
      - ``target``
      -  | Тема или URL для наполнения вайта контентом. 
         | Для генераторов WP и SF необходимо прописать одну из доступных тем:
-        | *beauty*
-        | *travel*
-        | *music*
-        | *food*
-        | *science*
-        | *gaming*
-        | *energy*
-        | *news*
-        | *sport*
-        | *tech*
-        | *world*
-        | *finance*
-        | *politics*
-        | *business*
-        | *economics*
-        | *entertainment*
+        | ``beauty``
+        | ``travel``
+        | ``music``
+        | ``food``
+        | ``science``
+        | ``gaming``
+        | ``energy``
+        | ``news``
+        | ``sport``
+        | ``tech``
+        | ``world``
+        | ``finance``
+        | ``politics``
+        | ``business``
+        | ``economics``
+        | ``entertainment``
         | Для генераторов Google Play и App Store используется URL-ссылка.
    * - Нет
      - ``keywords``
