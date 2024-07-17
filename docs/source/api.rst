@@ -36,7 +36,8 @@ GET-параметры
      - ``product``
      -  | Выбор генератора:
         | ``sf`` – SafePage генератор. 
-        | ``gp`` – GooglePage генератор. 
+        | ``gp`` – GooglePage генератор.
+        | ``gp_v2`` – GooglePage v2.0 generator. 
         | ``ap`` – ApplePage генератор. 
         | ``wp`` – Word Press (HTML) генератор.
         | ``wp&php=1`` – Word Press (PHP) генератор.
