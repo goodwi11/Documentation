@@ -12,6 +12,7 @@
    generators/safepage
    generators/gp
    generators/ap
+   generators/ms
    api
    clo
 
