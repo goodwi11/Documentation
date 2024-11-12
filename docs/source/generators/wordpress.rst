@@ -1,5 +1,5 @@
-**WordPress Generator**
-=======================
+WordPress Generator
+===================
 
 Обзор
 -----

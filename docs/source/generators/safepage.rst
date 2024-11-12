@@ -1,5 +1,5 @@
-**SafePage Generator**
-======================
+SafePage Generator
+==================
 
 Обзор
 -----
