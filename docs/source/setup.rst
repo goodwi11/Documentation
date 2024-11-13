@@ -140,7 +140,9 @@
 4. Устанавливаем Nginx через команду: ``sudo apt install nginx``
 
 5. Проверяем статус Nginx через команду: ``systemctl status nginx``
-| 6. Вы должны получить: Active: active (running)
-| Если статус не активный, то пропишите следующую команду: ``systemctl restart nginx``
+
+6. Вы должны получить: Active: active (running)
+Если статус не активный, то пропишите следующую команду: ``systemctl restart nginx``
+
 7. Готово, Nginx установлен корректно и находится в активном состоянии.
 
