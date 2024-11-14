@@ -184,7 +184,7 @@
 Базовые команды Linux:
 
 .. list-table::
-   :header-rows: 0
+   :header-rows: 1
    :stub-columns: 0
 
    * - Команда
