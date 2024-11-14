@@ -160,14 +160,14 @@
 
 1. Необходимо перененести ваш вайт в следующую директорию через команду: ``/var/www/domain.com``
 
-2. Базовая конфигурация домена: 
-``server {
-  server_name domain.com www.domain.com;
+2. Базовая конфигурация домена:: 
+ ``server {
+   server_name domain.com www.domain.com;
 
   location / {
     root /var/www/domain.com;
   }
-}``
+ }``
 
 Вам необходимо записать эту конфигурацию по следующему пути одним из вышеперечисленных способов: ``/etc/nginx/sites-available/domain.com``
 
