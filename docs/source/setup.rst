@@ -185,7 +185,7 @@
 
 .. list-table::
    :header-rows: 1
-   :stub-columns: 0
+   :stub-columns: 1
 
    * - Команда
      - Описание
