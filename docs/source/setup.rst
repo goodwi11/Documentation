@@ -163,12 +163,12 @@
 2. Базовая конфигурация домена:
 ::
    server {
-    server_name domain.com www.domain.com;
+     server_name domain.com www.domain.com;
 
-   location / {
-    root /var/www/domain.com;
-  }
- }
+     location / {
+       root /var/www/domain.com;
+     }
+   }
 
 Вам необходимо записать эту конфигурацию по следующему пути одним из вышеперечисленных способов: ``/etc/nginx/sites-available/domain.com``
 
