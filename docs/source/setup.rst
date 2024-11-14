@@ -183,7 +183,7 @@
 
 Базовые команды Linux:
 
-.. list-table::
+.. list-table:: Базовые команды Linux
    :header-rows: 1
    :stub-columns: 0
 
