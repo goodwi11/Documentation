@@ -148,7 +148,7 @@
 Размещение вайта на сервер:
 
 Самый простой и базовый способ размещения файлов — это Secure Copy Protocol, он же SSH File Transfer. 
-Размещение статического сайта (вайта) всегда происходит в директорию /var/www/, через команду: ``scp -r ~/path/to/folder ip@user:/var/www/``
+Размещение статического сайта (вайта) всегда происходит в директорию **/var/www/**, через команду: ``scp -r ~/path/to/folder ip@user:/var/www/``
 
 Конфигурация Nginx и домена:
 
@@ -162,13 +162,13 @@
 
 2. Базовая конфигурация домена:
 ::
-   ``server {
+   server {
     server_name domain.com www.domain.com;
 
    location / {
     root /var/www/domain.com;
   }
- }``
+ }
 
 Вам необходимо записать эту конфигурацию по следующему пути одним из вышеперечисленных способов: ``/etc/nginx/sites-available/domain.com``
 
