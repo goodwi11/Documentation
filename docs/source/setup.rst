@@ -210,6 +210,7 @@
 .. list-table:: Команды для текстового редактора Vim
    :header-rows: 1
    :stub-columns: 0
+   :widths: 15 10 30
 
    * - Команда
      - Описание
