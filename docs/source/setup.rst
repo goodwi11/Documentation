@@ -210,7 +210,6 @@
 .. list-table:: Команды для текстового редактора Vim
    :header-rows: 1
    :stub-columns: 0
-   :widths: 15 10 30
 
    * - Команда
      - Описание
@@ -226,3 +225,12 @@
      - | Команда позволяющая сохранить файл и выйти из него.
    * - ``:q``
      - | Команда позволяющая выйти из файла.
+
+.. csv-table:: CSV-таблица
+   :header: "Treat", "Quantity", "Description"
+   :widths: 15, 10, 30
+
+   "Albatross", 2.99, "On a stick!"
+   "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+   crunchy, now would it?"
+   "Gannet Ripple", 1.99, "On a stick!"
