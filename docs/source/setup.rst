@@ -245,4 +245,42 @@
      - | Nano попросит вас подтвердить действие: выбираем ``y``
      - | Nano спросит имя файла: нажимаем **Enter**
 
-   
+**Возможные ошибки и их решения.**
+
+Если при открытии домена вы видите белый экран или ошибку связанную с PHP, необходимо сделать следующее:
+
+1. Проверить наличие PHP и PHP-FPM через следующие команды: ``php -v`` и ``php-fpm -v``
+
+2. Если один из модулей отсутствует, то вы получите следующее: ``Command 'php' not found, but can be installed with:``
+
+3. Необходимо установить недостающие модули:
+
+| Установка PHP - ``sudo apt install php``
+
+| Установка PHP-FPM (Fastcgi) - ``sudo apt install php-fpm``
+
+4. Конфигурация домена с PHP-FPM:
+:: 
+   server {
+     server_name domain.com www.domain.com;
+
+     location / {
+       root /var/www/domain.com;
+       index index.php index.html;
+     }
+
+     # pass the PHP scripts to FastCGI server
+     location ~ \.php$ {
+       fastcgi_pass "unix:/var/run/php/php8.1-fpm.sock";
+       fastcgi_index index.php;
+       fastcgi_param  SCRIPT_FILENAME  /var/www/domain.com$fastcgi_script_name;
+       include fastcgi_params;
+     }
+   }
+
+Необходимо записать данную конфигурацию в следующую директорию: ``/etc/nginx/sites-available/domain.com``
+
+5. Необходимо сделать symlink конфигурации через команду: ``ln -s /etc/nignx/sites-available/domain.com /etc/nginx/sites-enabled/``
+
+6. Последним шагом необходимо перезапустить Nginx: ``systemctl restart nginx``
+
