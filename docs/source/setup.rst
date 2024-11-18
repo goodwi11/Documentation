@@ -237,16 +237,9 @@
    :widths: 15, 30
 
    "``nano file``", "Команда позволяющая открыть или создать файл."
-   "``Ctrl + x``", "Команда позволяющая сохранить файл и выйти из него."
-
-.. csv-table:: Команды для текстового редактора Nano
-   :header: "Treat", "Description"
-   :widths: 15, 10, 30
-
-   "Albatross", "On a stick!"
-   "Crunchy Frog", "If we took the bones out, it wouldn't be
-   crunchy, now would it?"
-   "Gannet Ripple", "On a stick!"
+   "``Ctrl + x``", "| Команда позволяющая сохранить файл и выйти из него.
+                    | Nano попросит вас подтвердить действие: выбираем ``y``
+                    | Nano спросит имя файла: нажимаем **Enter**"
 
 .. list-table:: Команды для текстового редактора Nano
    :header-rows: 1
