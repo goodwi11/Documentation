@@ -284,7 +284,6 @@
 
 6. Последним шагом необходимо перезапустить Nginx: ``systemctl restart nginx``
 
-test
 .. list-table:: Команды для текстового редактора Nano
    :header-rows: 1
    :stub-columns: 0
