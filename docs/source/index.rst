@@ -14,6 +14,7 @@
    generators/gp
    generators/ap
    generators/ms
+   generators/as
    api
    clo
 
