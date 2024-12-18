@@ -35,17 +35,20 @@ GET-параметры
    * - Да
      - ``product``
      -  | Выбор генератора:
-        | ``sf`` – SafePage генератор. 
+        | ``sf`` – SafePage генератор.
+        | ``sf_v2`` – SafePage v2.0 генератор.
         | ``gp`` – GooglePage генератор.
         | ``gp_v2`` – GooglePage v2.0 генератор.
         | ``ms`` – MicrosoftPage генератор.
-        | ``ap`` – ApplePage генератор. 
+        | ``ap`` – ApplePage генератор.
+        | ``as`` – AmazonPage генератор. 
         | ``wp`` – Word Press (HTML) генератор.
         | ``wp&php=1`` – Word Press (PHP) генератор.
    * - Да
      - ``target``
      -  | Тема или URL для наполнения вайта контентом. 
-        | Для генераторов WP и SF необходимо прописать одну из доступных тем:
+        | Для генераторов WordPress и SafePage необходимо прописать одну из доступных тем.
+        | Список доступных тем для каждого генератора можно найти в таблицах ниже.
         | ``beauty``
         | ``travel``
         | ``music``
@@ -62,7 +65,7 @@ GET-параметры
         | ``business``
         | ``economics``
         | ``entertainment``
-        | Для генераторов GooglePage, ApplePage и MicrosoftPage используется URL-ссылка на приложение.
+        | Для генераторов GooglePage, ApplePage, AmazonPage и MicrosoftPage используется URL-ссылка на приложение или товар.
    * - Да
      - ``lang``
      - | Выбор необходимого языка для перевода вайта. Прописывать в формате: язык_СТРАНА.
@@ -253,11 +256,31 @@ GET-параметры
 Японский                              ja_JP
 ===================================   ======
 
+Коды доступных тем
+------------------
 
+===================================   
 
+Коды тем для WordPress и SafePage                                  
 
-
-
+===================================   
+beauty
+travel
+music
+food
+science
+gaming
+energy
+news
+sport
+tech
+world
+finance
+politics
+business
+economics
+entertainment
+===================================
 
 
 
