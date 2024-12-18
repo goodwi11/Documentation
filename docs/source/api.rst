@@ -284,6 +284,8 @@ entertainment
 
 .. csv-table:: Коды тем для WordPress и SafePage
    :header: "Тема"
+   :widths: 15
+   :align: center
 
    "beauty"
    "travel"
