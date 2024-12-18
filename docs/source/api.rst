@@ -256,51 +256,51 @@ GET-параметры
 Японский                              ja_JP
 ===================================   ======
 
-Коды доступных тем
-------------------
+.. Коды доступных тем
+.. ------------------
 
-===================================  ===================================
+.. ===================================  ===================================
 
-Коды тем для WordPress и SafePage     Коды тем для SafePage v2                             
+.. Коды тем для WordPress и SafePage     Коды тем для SafePage v2                             
 
-===================================  =================================== 
-beauty                               test
-travel                               test
-music                                 
-food
-science                               
-gaming                                
-energy                                 
-news                                   
-sport 
-tech
-world
-finance
-politics
-business
-economics
-entertainment
-===================================  ===================================
+.. ===================================  =================================== 
+.. beauty                               test
+.. travel                               test
+.. music                                 
+.. food
+.. science                               
+.. gaming                                
+.. energy                                 
+.. news                                   
+.. sport 
+.. tech
+.. world
+.. finance
+.. politics
+.. business
+.. economics
+.. entertainment
+.. ===================================  ===================================
 
-.. csv-table:: 
-   :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
-   :width: 15%
-   :align: center
+.. .. csv-table:: 
+..    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
+..    :width: 15%
+..    :align: center
 
-   "beauty"
-   "travel"
-   "music"
-   "food"
-   "science"
-   "gaming"
-   "energy"
-   "news"
-   "sport"
-   "tech"
-   "world"
-   "finance"
-   "politics"
-   "business"
-   "economics"
-   "entertainment"
+..    "beauty"
+..    "travel"
+..    "music"
+..    "food"
+..    "science"
+..    "gaming"
+..    "energy"
+..    "news"
+..    "sport"
+..    "tech"
+..    "world"
+..    "finance"
+..    "politics"
+..    "business"
+..    "economics"
+..    "entertainment"
 
