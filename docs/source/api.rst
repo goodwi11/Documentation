@@ -280,7 +280,7 @@ politics
 business
 economics
 entertainment
-================================== 
+=================================== 
 
 .. csv-table:: Коды тем для WordPress и SafePage
    :header: "Тема"
