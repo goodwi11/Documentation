@@ -259,20 +259,20 @@ GET-параметры
 Коды доступных тем
 ------------------
 
-=================================== 
+===================================  ===================================
 
-Коды тем для WordPress и SafePage                                  
+Коды тем для WordPress и SafePage     Коды тем для SafePage v2                             
 
-===================================   
-beauty
-travel
-music
+===================================  =================================== 
+beauty                               test
+travel                               test
+music                                 
 food
-science
-gaming
-energy
-news
-sport
+science                               
+gaming                                
+energy                                 
+news                                   
+sport 
 tech
 world
 finance
@@ -280,10 +280,10 @@ politics
 business
 economics
 entertainment
-=================================== 
+===================================  ===================================
 
-.. csv-table:: Коды тем для WordPress и SafePage
-   :header: "Тема"
+.. csv-table:: 
+   :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
    :width: 15%
    :align: center
 
