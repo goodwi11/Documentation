@@ -282,5 +282,23 @@ economics
 entertainment
 ===================================
 
+.. csv-table:: Коды тем для WordPress и SafePage
+   :header: "Тема"
 
+   "beauty"
+   "travel"
+   "music"
+   "food"
+   "science"
+   "gaming"
+   "energy"
+   "news"
+   "sport"
+   "tech"
+   "world"
+   "finance"
+   "politics"
+   "business"
+   "economics"
+   "entertainment"
 
