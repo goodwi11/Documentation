@@ -185,21 +185,21 @@ GET-параметры
 .. | Vietnamese - vi_VN 
 .. | Zulu - zu_ZA
 
-===================================   ======
+===================================   =========
 
 Язык                                  Код
 
-===================================   ======
-Албанский (скоро)                     sq_AL 
-Амхарский (скоро)                     am_ET
-Английский                            en_US
-Арабский                              ar_SA
-Армянский                             hy_AM
-Азербайджанский                       az_AZ
-Белорусский                           be_BY
-Бенгальский                           bn_BD
-Бирманский (скоро)                    my_MM
-Болгарский                            bg_BG
+===================================   =========
+Албанский (скоро)                     ``sq_AL`` 
+Амхарский (скоро)                     ``am_ET``
+Английский                            ``en_US``
+Арабский                              ``ar_SA``
+Армянский                             ``hy_AM``
+Азербайджанский                       ``az_AZ``
+Белорусский                           ``be_BY``
+Бенгальский                           ``bn_BD``
+Бирманский (скоро)                    ``my_MM``
+Болгарский                            ``bg_BG``
 Венгерский                            hu_HU
 Вьетнамский                           vi_VN
 Голландский                           nl_NL
@@ -259,26 +259,6 @@ GET-параметры
 Коды доступных тем
 ------------------
 
-**Коды тем для WordPress и SafePage**
-
-* `beauty`                               
-* `travel`                              
-* `music`                                
-* `food`                                
-* `science`                                                            
-* `gaming`                                                       
-* `energy`                                                         
-* `news`                                                          
-* `sport`                                
-* `tech`                                 
-* `world`                                
-* `finance`                              
-* `politics`                             
-* `business`                             
-* `economics`                            
-* `entertainment` 
-
-
 .. ===================================  
 
 .. Коды тем для WordPress и SafePage                      
@@ -301,8 +281,6 @@ GET-параметры
 .. economics                            
 .. entertainment                        
 .. =================================== 
-
-
 
 .. ===================================  
 
@@ -335,41 +313,41 @@ GET-параметры
    :align: center
 
    "``beauty``", ``travel``, ``Auto_Vehicles``
-   "``travel``", ``sport``, Business
-   "``music``", ``beauty``, Video_Players
-   "``food``", ``finance``, Food_Drink
-   "science", dating, House_Home
-   "gaming", games, Health_Fitness
-   "energy", cars, Dating
-   "news", technologies, Game
-   "sport", fashion, Game_Arcade
-   "tech", music, Game_Casual
-   "world", activities, Game_Card
-   "finance", entertainment, Game_Music
-   "politics", health, Game_Board
-   "business", food, Game_Puzzle
-   "economics", education, Game_Adventure
-   "entertainment", estate, Game_Sports
-                  , fitness, Game_Action
-                  , commerce, Tools
-                  , , Art_Design
-                  , , Maps_Navigation
-                  , , Comics
-                  , , Beauty
-                  , , Medical
-                  , , Events
-                  , , Music_Audio
-                  , , News_Magazines
-                  , , Education
-                  , , Personalization
-                  , , Weather
-                  , , Productivity
-                  , , Travel_Local
-                  , , Entertainment
-                  , , Communication
-                  , , Social
-                  , , Sports
-                  , , Finance
-                  , , Photography
-                  , , Shopping
+   "``travel``", ``sport``, ``Business``
+   "``music``", ``beauty``, ``Video_Players``
+   "``food``", ``finance``, ``Food_Drink``
+   "``science``", ``dating``, ``House_Home``
+   "``gaming``", ``games``, ``Health_Fitness``
+   "``energy``", ``cars``, ``Dating``
+   "``news``", ``technologies``, ``Game``
+   "``sport``", ``fashion``, ``Game_Arcade``
+   "``tech``", ``music``, ``Game_Casual``
+   "``world``", ``activities``, ``Game_Card``
+   "``finance``", ``entertainment``, ``Game_Music``
+   "``politics``", ``health``, ``Game_Board``
+   "``business``", ``food``, ``Game_Puzzle``
+   "``economics``", ``education``, ``Game_Adventure``
+   "``entertainment``", ``estate``, ``Game_Sports``
+                  , ``fitness``, ``Game_Action``
+                  , ``commerce``, ``Tools``
+                  , , ``Art_Design``
+                  , , ``Maps_Navigation``
+                  , , ``Comics``
+                  , , ``Beauty``
+                  , , ``Medical``
+                  , , ``Events``
+                  , , ``Music_Audio``
+                  , , ``News_Magazines``
+                  , , ``Education``
+                  , , ``Personalization``
+                  , , ``Weather``
+                  , , ``Productivity``
+                  , , ``Travel_Local``
+                  , , ``Entertainment``
+                  , , ``Communication``
+                  , , ``Social``
+                  , , ``Sports``
+                  , , ``Finance``
+                  , , ``Photography``
+                  , , ``Shopping``
 
