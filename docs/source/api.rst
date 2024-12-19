@@ -280,35 +280,32 @@ politics
 business                             
 economics                            
 entertainment                        
+=================================== 
+
 ===================================  
 
-.. table::
-   :widths: auto
+Коды тем для SafePage v2                                
 
-   ===================================  
-
-   Коды тем для SafePage v2                                
-
-   ===================================   
-   travel
-   sport
-   beauty
-   finance
-   dating
-   games
-   cars
-   technologies
-   fashion
-   music
-   activities
-   entertainment
-   health
-   food
-   education
-   estate
-   fitness
-   commerce                  
-   ===================================  
+===================================   
+travel
+sport
+beauty
+finance
+dating
+games
+cars
+technologies
+fashion
+music
+activities
+entertainment
+health
+food
+education
+estate
+fitness
+commerce                  
+===================================  
 
 .. .. csv-table:: 
 ..    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
