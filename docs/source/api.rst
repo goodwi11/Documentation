@@ -280,9 +280,9 @@ politics                             health
 business                             food
 economics                            education
 entertainment                        estate
-                                     fitness
+===================================  fitness
                                      commerce
-===================================  ===================================
+                                     ===================================
 
 .. .. csv-table:: 
 ..    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
