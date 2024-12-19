@@ -334,22 +334,23 @@ GET-параметры
    :width: 15%
    :align: center
 
-   "``beauty``", ``travel``, Auto_Vehicles
+   "``beauty``", ``travel``, ``Auto_Vehicles``
    "``travel``", ``sport``, Business
    "``music``", ``beauty``, Video_Players
    "``food``", ``finance``, Food_Drink
    "science", dating, House_Home
-   "gaming", games
-   "energy", cars
-   "news", technologies
-   "sport", fashion
-   "tech", music
-   "world", activities
-   "finance", entertainment
-   "politics", health
-   "business", food
-   "economics", education
-   "entertainment", estate
-                  , fitness
-                  , commerce 
+   "gaming", games, Health_Fitness
+   "energy", cars, Dating
+   "news", technologies, Game
+   "sport", fashion, Game_Arcade
+   "tech", music, Game_Casual
+   "world", activities, Game_Card
+   "finance", entertainment, Game_Music
+   "politics", health, Game_Board
+   "business", food, Game_Puzzle
+   "economics", education, Game_Adventure
+   "entertainment", estate, Game_Sports
+                  , fitness, Game_Action
+                  , commerce, Tools
+                  , , Art_Design 
 
