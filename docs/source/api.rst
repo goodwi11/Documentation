@@ -48,24 +48,8 @@ GET-параметры
      - ``target``
      -  | Тема или URL для наполнения вайта контентом. 
         | Для генераторов WordPress и SafePage необходимо прописать одну из доступных тем.
+        | Для генераторов GooglePage, ApplePage, AmazonPage и MicrosoftPage используется URL-ссылка на приложение или товар (для генератора GooglePage v2 также доступны темы).
         | Список доступных тем для каждого генератора представлен ниже.
-        | ``beauty``
-        | ``travel``
-        | ``music``
-        | ``food``
-        | ``science``
-        | ``gaming``
-        | ``energy``
-        | ``news``
-        | ``sport``
-        | ``tech``
-        | ``world``
-        | ``finance``
-        | ``politics``
-        | ``business``
-        | ``economics``
-        | ``entertainment``
-        | Для генераторов GooglePage, ApplePage, AmazonPage и MicrosoftPage используется URL-ссылка на приложение или товар.
    * - Да
      - ``lang``
      - | Выбор необходимого языка для перевода вайта. Прописывать в формате: язык_СТРАНА.
