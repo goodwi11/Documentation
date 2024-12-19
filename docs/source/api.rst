@@ -259,30 +259,56 @@ GET-параметры
 Коды доступных тем
 ------------------
 
-===================================  ===================================
+===================================  
 
-Коды тем для WordPress и SafePage     Коды тем для SafePage v2                             
+Коды тем для WordPress и SafePage                                
 
-===================================  =================================== 
-beauty                               travel
-travel                               sport
-music                                beauty 
-food                                 finance
-science                              dating                               
-gaming                               games                         
-energy                               cars                           
-news                                 technologies                            
-sport                                fashion
-tech                                 music
-world                                activities
-finance                              entertainment
-politics                             health
-business                             food
-economics                            education
-entertainment                        estate
-===================================  fitness
-                                     commerce
-                                     ===================================
+===================================   
+beauty                               
+travel                              
+music                                
+food                                 
+science                                                            
+gaming                                                       
+energy                                                         
+news                                                          
+sport                                
+tech                                 
+world                                
+finance                              
+politics                             
+business                             
+economics                            
+entertainment                        
+===================================  
+
+.. table::
+   :widths: auto
+
+   ===================================  
+
+   Коды тем для SafePage v2                                
+
+   ===================================   
+   travel
+   sport
+   beauty
+   finance
+   dating
+   games
+   cars
+   technologies
+   fashion
+   music
+   activities
+   entertainment
+   health
+   food
+   education
+   estate
+   fitness
+   commerce                  
+   ===================================  
 
 .. .. csv-table:: 
 ..    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
