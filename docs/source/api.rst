@@ -334,11 +334,11 @@ GET-параметры
    :width: 15%
    :align: center
 
-   "beauty", travel
-   "travel", sport
-   "music", beauty
-   "food", finance
-   "science", dating
+   "beauty", travel, Auto_Vehicles
+   "travel", sport, Business
+   "music", beauty, Video_Players
+   "food", finance, Food_Drink
+   "science", dating, House_Home
    "gaming", games
    "energy", cars
    "news", technologies
