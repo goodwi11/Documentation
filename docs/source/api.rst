@@ -261,9 +261,9 @@ GET-параметры
 
 ===================================  
 
-Коды тем для WordPress и SafePage                                
+Коды тем для WordPress и SafePage                      
 
-===================================   
+===================================  
 beauty                               
 travel                              
 music                                
@@ -282,30 +282,37 @@ economics
 entertainment                        
 =================================== 
 
-===================================  
+=====  =====
+  A    not A
+=====  =====
+False  True
+True   False
+=====  =====
 
-Коды тем для SafePage v2                                
+.. ===================================  
 
-===================================   
-travel
-sport
-beauty
-finance
-dating
-games
-cars
-technologies
-fashion
-music
-activities
-entertainment
-health
-food
-education
-estate
-fitness
-commerce                  
-===================================  
+.. Коды тем для SafePage v2                                
+
+.. ===================================   
+.. travel
+.. sport
+.. beauty
+.. finance
+.. dating
+.. games
+.. cars
+.. technologies
+.. fashion
+.. music
+.. activities
+.. entertainment
+.. health
+.. food
+.. education
+.. estate
+.. fitness
+.. commerce                  
+.. ===================================  
 
 .. .. csv-table:: 
 ..    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
