@@ -352,5 +352,24 @@ GET-параметры
    "entertainment", estate, Game_Sports
                   , fitness, Game_Action
                   , commerce, Tools
-                  , , Art_Design 
+                  , , Art_Design
+                  , , Maps_Navigation
+                  , , Comics
+                  , , Beauty
+                  , , Medical
+                  , , Events
+                  , , Music_Audio
+                  , , News_Magazines
+                  , , Education
+                  , , Personalization
+                  , , Weather
+                  , , Productivity
+                  , , Travel_Local
+                  , , Entertainment
+                  , , Communication
+                  , , Social
+                  , , Sports
+                  , , Finance
+                  , , Photography
+                  , , Shopping
 
