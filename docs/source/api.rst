@@ -259,35 +259,50 @@ GET-параметры
 Коды доступных тем
 ------------------
 
-===================================  
+**Коды тем для WordPress и SafePage**
 
-Коды тем для WordPress и SafePage                      
+* `beauty`                               
+* `travel`                              
+* `music`                                
+* `food`                                
+* `science`                                                            
+* `gaming`                                                       
+* `energy`                                                         
+* `news`                                                          
+* `sport`                                
+* `tech`                                 
+* `world`                                
+* `finance`                              
+* `politics`                             
+* `business`                             
+* `economics`                            
+* `entertainment` 
 
-===================================  
-beauty                               
-travel                              
-music                                
-food                                 
-science                                                            
-gaming                                                       
-energy                                                         
-news                                                          
-sport                                
-tech                                 
-world                                
-finance                              
-politics                             
-business                             
-economics                            
-entertainment                        
-=================================== 
 
-=====  
-  A    
-===== 
-False   
-True  
-===== 
+.. ===================================  
+
+.. Коды тем для WordPress и SafePage                      
+
+.. ===================================  
+.. beauty                               
+.. travel                              
+.. music                                
+.. food                                 
+.. science                                                            
+.. gaming                                                       
+.. energy                                                         
+.. news                                                          
+.. sport                                
+.. tech                                 
+.. world                                
+.. finance                              
+.. politics                             
+.. business                             
+.. economics                            
+.. entertainment                        
+.. =================================== 
+
+
 
 .. ===================================  
 
@@ -314,25 +329,25 @@ True
 .. commerce                  
 .. ===================================  
 
-.. .. csv-table:: 
-..    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
-..    :width: 15%
-..    :align: center
+.. csv-table:: 
+   :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
+   :width: 15%
+   :align: center
 
-..    "beauty"
-..    "travel"
-..    "music"
-..    "food"
-..    "science"
-..    "gaming"
-..    "energy"
-..    "news"
-..    "sport"
-..    "tech"
-..    "world"
-..    "finance"
-..    "politics"
-..    "business"
-..    "economics"
-..    "entertainment"
+   "beauty", travel
+   "travel", sport
+   "music", beauty
+   "food", finance
+   "science", dating
+   "gaming", games
+   "energy", cars
+   "news", technologies
+   "sport", fashion
+   "tech", music
+   "world", activities
+   "finance", entertainment
+   "politics", health
+   "business", food
+   "economics", education
+   "entertainment"
 
