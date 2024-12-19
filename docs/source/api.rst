@@ -349,5 +349,7 @@ GET-параметры
    "politics", health
    "business", food
    "economics", education
-   "entertainment"
+   "entertainment", estate
+                  , fitness
+                  , commerce 
 
