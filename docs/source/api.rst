@@ -122,8 +122,6 @@ GET-параметры
 .. important:: 
  При вставке кода через параметры ``head``, ``pixel``, ``body_start`` или ``body_end`` необходимо использовать URL кодирование. 
 
-
-
 Пример релевантной URL-ссылки для работы с API::
 
  https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,keys&domain=example.com&lang=en_US&product=wp&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
@@ -251,54 +249,6 @@ GET-параметры
 
 Коды доступных тем
 ------------------
-
-.. ===================================  
-
-.. Коды тем для WordPress и SafePage                      
-
-.. ===================================  
-.. beauty                               
-.. travel                              
-.. music                                
-.. food                                 
-.. science                                                            
-.. gaming                                                       
-.. energy                                                         
-.. news                                                          
-.. sport                                
-.. tech                                 
-.. world                                
-.. finance                              
-.. politics                             
-.. business                             
-.. economics                            
-.. entertainment                        
-.. =================================== 
-
-.. ===================================  
-
-.. Коды тем для SafePage v2                                
-
-.. ===================================   
-.. travel
-.. sport
-.. beauty
-.. finance
-.. dating
-.. games
-.. cars
-.. technologies
-.. fashion
-.. music
-.. activities
-.. entertainment
-.. health
-.. food
-.. education
-.. estate
-.. fitness
-.. commerce                  
-.. ===================================  
 
 .. csv-table:: 
    :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
