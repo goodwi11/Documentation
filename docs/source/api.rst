@@ -128,10 +128,10 @@ GET-параметры
      - | Параметр для размещения кода на страницу вайта в <head>.
    * - ``body_start``
      - | Параметр для размещения кода на страницу вайта после <body>.
-       | Пример: **<div>example for body start<div>**
+       | Пример: `<div>example for body start<div>`
    * - ``body_end``
      - | Параметр для размещения кода на страницу вайта перед <body>.
-       | Пример: **<div>example for body end<div></div>**
+       | Пример: `<div>example for body end<div></div>`
 
 .. important:: 
  При вставке кода через параметры ``head``, ``pixel``, ``body_start`` или ``body_end`` необходимо использовать URL кодирование. 
