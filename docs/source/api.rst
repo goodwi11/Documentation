@@ -52,6 +52,8 @@ GET-параметры
         | ``as`` – AmazonPage генератор. 
         | ``wp`` – Word Press (HTML) генератор.
         | ``wp&php=1`` – Word Press (PHP) генератор.
+        | ``wp_v2`` – Word Press v2.0 (HTML) генератор.
+        | ``wp_v2&php=1`` – Word Press v2.0 (PHP) генератор.
    * - Да
      - ``target``
      -  | Тема или URL для наполнения вайта контентом. 
@@ -263,7 +265,7 @@ GET-параметры
 ==================
 
 .. csv-table:: 
-   :header: "Коды для WordPress и SafePage", "Коды для SafePage v2", "Коды для GooglePage v2"
+   :header: "Коды для WordPress и SafePage", "Коды для WordPress v2 и SafePage v2", "Коды для GooglePage v2"
    :width: 15%
    :align: center
 
