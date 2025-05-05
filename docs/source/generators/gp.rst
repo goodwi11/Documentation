@@ -18,7 +18,7 @@ GooglePage Generator
 **Шаг 1.** Выберите приложение из `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ магазина, которое наиболее подходит под ваши ключевые слова или креатив и скопируйте URL-ссылку на выбранное приложение.
 
 | **Шаг 2.** Выберите генератор **GooglePage** на странице генерации и вставьте скопированную ссылку в соответствующее поле "Ссылка на приложение".
-| Например: `https://play.google.com/store/apps/details?id=com.telegram`
+| Например: `https://play.google.com/store/apps/details?id=org.telegram.messenger`
 
 .. note::
  При использовании генератора GooglePage v2 вам необходимо выбрать одну из заранее заготовленных тем, в которых уже собранны тематические приложения.
