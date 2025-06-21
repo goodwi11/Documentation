@@ -270,42 +270,42 @@ GET-параметры
    :width: 15%
    :align: center
 
-   "``beauty``", ``travel``, ``Auto_Vehicles``
-   "``travel``", ``sport``, ``Business``
-   "``music``", ``beauty``, ``Video_Players``
-   "``food``", ``finance``, ``Food_Drink``
-   "``science``", ``dating``, ``House_Home``
-   "``gaming``", ``games``, ``Health_Fitness``
-   "``energy``", ``cars``, ``Dating``
-   "``news``", ``technologies``, ``Game``
-   "``sport``", ``fashion``, ``Game_Arcade``
-   "``tech``", ``music``, ``Game_Casual``
-   "``world``", ``activities``, ``Game_Card``
-   "``finance``", ``entertainment``, ``Game_Music``
-   "``politics``", ``health``, ``Game_Board``
-   "``business``", ``food``, ``Game_Puzzle``
-   "``economics``", ``education``, ``Game_Adventure``
-   "``entertainment``", ``estate``, ``Game_Sports``
-                  , ``fitness``, ``Game_Action``
-                  , ``commerce``, ``Tools``
-                  , , ``Art_Design``
-                  , , ``Maps_Navigation``
-                  , , ``Comics``
-                  , , ``Beauty``
-                  , , ``Medical``
-                  , , ``Events``
-                  , , ``Music_Audio``
-                  , , ``News_Magazines``
-                  , , ``Education``
-                  , , ``Personalization``
-                  , , ``Weather``
-                  , , ``Productivity``
-                  , , ``Travel_Local``
-                  , , ``Entertainment``
-                  , , ``Communication``
-                  , , ``Social``
-                  , , ``Sports``
-                  , , ``Finance``
-                  , , ``Photography``
-                  , , ``Shopping``
+   "``travel``", ``Auto_Vehicles``
+   "``sport``", ``Business``
+   "``beauty``", ``Video_Players``
+   "``finance``", ``Food_Drink``
+   "``dating``", ``House_Home``
+   "``games``", ``Health_Fitness``
+   "``cars``", ``Dating``
+   "``technologies``", ``Game``
+   "``fashion``", ``Game_Arcade``
+   "``music``", ``Game_Casual``
+   "``activities``", ``Game_Card``
+   "``entertainment``", ``Game_Music``
+   "``health``", ``Game_Board``
+   "``food``", ``Game_Puzzle``
+   "``education``", ``Game_Adventure``
+   "``estate``", ``Game_Sports``
+   "``fitness``", ``Game_Action``
+   "``commerce``", ``Tools``
+                  , ``Art_Design``
+                  , ``Maps_Navigation``
+                  , ``Comics``
+                  , ``Beauty``
+                  , ``Medical``
+                  , ``Events``
+                  , ``Music_Audio``
+                  , ``News_Magazines``
+                  , ``Education``
+                  , ``Personalization``
+                  , ``Weather``
+                  , ``Productivity``
+                  , ``Travel_Local``
+                  , ``Entertainment``
+                  , ``Communication``
+                  , ``Social``
+                  , ``Sports``
+                  , ``Finance``
+                  , ``Photography``
+                  , ``Shopping``
 
