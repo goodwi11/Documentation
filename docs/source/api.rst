@@ -43,15 +43,11 @@ GET-параметры
    * - Да
      - ``product``
      -  | Выбор генератора:
-        | ``sf`` – SafePage генератор.
         | ``sf_v2`` – SafePage v2.0 генератор.
-        | ``gp`` – GooglePage генератор.
         | ``gp_v2`` – GooglePage v2.0 генератор.
         | ``ms`` – MicrosoftPage генератор.
         | ``ap`` – ApplePage генератор.
         | ``as`` – AmazonPage генератор. 
-        | ``wp`` – Word Press (HTML) генератор.
-        | ``wp&php=1`` – Word Press (PHP) генератор.
         | ``wp_v2`` – Word Press v2.0 (HTML) генератор.
         | ``wp_v2&php=1`` – Word Press v2.0 (PHP) генератор.
    * - Да
@@ -138,7 +134,7 @@ GET-параметры
 
 Пример релевантной URL-ссылки для работы с API::
 
- https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,keys&domain=example.com&lang=en_US&product=wp&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
+ https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,keys&domain=example.com&lang=en_US&product=wp_v2&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
 
 Коды доступных языков
 =====================
