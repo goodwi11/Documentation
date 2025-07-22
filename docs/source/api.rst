@@ -43,18 +43,19 @@ GET-параметры
    * - Да
      - ``product``
      -  | Выбор генератора:
-        | ``sf_v2`` – SafePage v2.0 генератор.
-        | ``gp_v2`` – GooglePage v2.0 генератор.
+        | ``sf`` – SafePage генератор.
+        | ``gp`` – GooglePage генератор.
         | ``ms`` – MicrosoftPage генератор.
         | ``ap`` – ApplePage генератор.
         | ``as`` – AmazonPage генератор. 
-        | ``wp_v2`` – Word Press v2.0 (HTML) генератор.
-        | ``wp_v2&php=1`` – Word Press v2.0 (PHP) генератор.
+        | ``wp`` – Word Press (HTML) генератор.
+        | ``wp&php=1`` – Word Press (PHP) генератор.
+        | ``wp_cms`` – Word Press CMS генератор.
    * - Да
      - ``target``
      -  | Тема или URL для наполнения вайта контентом. 
         | Для генераторов WordPress и SafePage необходимо прописать одну из доступных тем.
-        | Для генераторов GooglePage, ApplePage, AmazonPage и MicrosoftPage используется URL-ссылка на приложение или товар (для генератора GooglePage v2 также доступны темы).
+        | Для генераторов GooglePage, ApplePage, AmazonPage и MicrosoftPage используется URL-ссылка на приложение или товар (для генератора GooglePage также доступны темы).
         | Список доступных тем с кодами представлен ниже.
    * - Да
      - ``lang``
@@ -262,7 +263,7 @@ GET-параметры
 ==================
 
 .. csv-table:: 
-   :header: "Коды для WordPress v2 и SafePage v2", "Коды для GooglePage v2"
+   :header: "Коды для WordPress и SafePage", "Коды для GooglePage"
    :width: 15%
    :align: center
 
