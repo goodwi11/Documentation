@@ -74,9 +74,9 @@ WordPress CMS
    :width: 10
    :align: "center"
 
-   "User", `admin`
-   "Password", `0!1#EHxp&K5{x9$%`
-   "Email", `admin@wordpress.com`
+   "**User**", `admin`
+   "**Password**", `0!1#EHxp&K5{x9$%`
+   "**Email**", `admin@wordpress.com`
 
 
 
