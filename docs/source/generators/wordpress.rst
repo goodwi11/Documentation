@@ -66,14 +66,23 @@ WordPress CMS
 
 * Размер **memory_limit** для PHP должен быть 64 Мбайт или больше.
 
-Данные для входа в панель администратора
-----------------------------------------
+.. csv-table:: 
+   :header: "Коды для WordPress и SafePage", "Коды для GooglePage"
+   :width: 15%
+   :align: center
 
-| **USER:** `admin`
+   "**User**", `admin`
+   "**Password**", `0!1#EHxp&K5{x9$%`
+   "**Email**", `admin@wordpress.com`
 
-| **PASSWORD:** `0!1#EHxp&K5{x9$%`
+.. Данные для входа в панель администратора
+.. ----------------------------------------
 
-| **EMAIL:** `admin@wordpress.com`
+.. | **USER:** `admin`
+
+.. | **PASSWORD:** `0!1#EHxp&K5{x9$%`
+
+.. | **EMAIL:** `admin@wordpress.com`
 
 Как сгенерировать вайт
 ======================
