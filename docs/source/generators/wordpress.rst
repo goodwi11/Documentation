@@ -71,14 +71,12 @@ WordPress CMS
 
 .. csv-table:: 
    :header: "Поле", "Значение"
-   :width: 10
-   :align: "center"
+   :width: 10%
+   :align: center
 
    "**User**", `admin`
    "**Password**", `0!1#EHxp&K5{x9$%`
    "**Email**", `admin@wordpress.com`
-
-
 
 Как сгенерировать вайт
 ======================
