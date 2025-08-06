@@ -66,9 +66,12 @@ WordPress CMS
 
 * Размер **memory_limit** для PHP должен быть 64 Мбайт или больше.
 
+Данные для входа в панель администратора
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 .. csv-table:: 
-   :header: "Коды для WordPress и SafePage", "Коды для GooglePage"
-   :width: 15%
+   :header: "Поле", "Значение"
+   :width: 10%
    :align: center
 
    "**User**", `admin`
