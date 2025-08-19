@@ -78,6 +78,75 @@ WordPress CMS
    "**Password**", `0!1#EHxp&K5{x9$%`
    "**Email**", `admin@wordpress.com`
 
+При необходимости вы можете заменить данные для входа в панель адмнистратора используя команду ниже:
+::
+ wp user --path="${SITE_PATH}" update 1 --user_login=new_login
+ wp user --path="${SITE_PATH}" update admin --user_email=new@email.com
+ wp user --path="${SITE_PATH}" update admin --user_pass="new_password"
+
+Инструкция по размещению и активации WordPress CMS на сервере через SSH протокол
+--------------------------------------------------------------------------------
+
+**Шаг 1.** Установите необходимые библиотеки для корректной работы WordPress:
+
+``sudo apt install mysql php-fpm php-mysql php-curl wp_cli``
+
+**1.1.** Установите дополнительные модули для оптимизации работы WordPress:
+
+``sudo apt install php-mbstring php-xml php-zip php-gd``
+
+.. note::
+ | Если вы будете использовать файл deploy.sh для ускорения настройки, то необходимо выполнить следующую команду: 
+ | ``sudo apt install php-mbstring php-xml php-zip php-gd unzip``
+
+**Шаг 2.** Необходимо настроить NGINX, OpenResty или Apache на вашем сервере.
+
+.. note::
+ | Замените ${} на соответствующие данные.
+ | **${SITE_PORT}** - порт где будет размещён ваш домен. Например: 80
+ | **${WP_PORT}** - порт где будет размещён WordPress. Например: 8080
+ | **${SITE_PATH}** - путь где находится файл с WordPress. Например: /way/to/wordpress/folder
+ | **${SITE_URL}** - URL домена, где будет размещён WordPress. Например: https://domain.com
+
+Пример конфигурации веб-сервера NGINX:
+::
+   server {
+    listen ${SITE_PORT};
+    server_name domain.com www.domain.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:${WP_PORT};
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+    location ~* \.(css|js|jpg|jpeg|png|gif|ico|svg|woff2?|ttf|eot)$ 
+     { 
+    root ${SITE_PATH};
+        expires 30d;
+        access_log off;
+     }
+   }
+
+**Шаг 3.** Скачайте и активируйте файл :download:`deploy.sh <_static/deploy.sh>` или выполните команды вручную.
+
+**3.1.** Замените порт в dump на порт WordPress:
+
+``sed -i -E "s#(http://[^:]+:)[0-9]+#\1${WP_PORT}#g" "$SQL_FILE"``
+
+**3.2.** Импортируйте *db.sql* и создайте *wpuser* в базе данных MySQL.
+
+.. important::
+  При переносе *db.sql* и создании *wpuser* не забудьте изменить параметры в MySQL (**DB_NAME**, **DB_USER**, **DB_PASSWORD**).
+
+**3.3.** Для корректной работы *https* выполните замену пути к WordPress:
+
+``wp search-replace "http://127.0.0.1:${WP_PORT}" "${SITE_URL}" --skip-columns=guid --path="${SITE_PATH}" --allow-root``
+
+**Шаг 4.** Выполните команду для запуска *wp server*:
+
+``wp server --path="${SITE_PATH}" --host=127.0.0.1 --port=${WP_PORT} --allow-root``
+
 Как сгенерировать вайт
 ======================
 
