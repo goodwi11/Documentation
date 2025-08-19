@@ -132,7 +132,7 @@ WordPress CMS
      }
    }
 
-**Шаг 3.** Скачайте и активируйте файл :download:`deploy.sh docs/source/<_static/deploy.sh>` или выполните команды вручную.
+**Шаг 3.** Скачайте и активируйте файл :download:`deploy.sh <docs/source/_static/deploy.sh>` или выполните команды вручную.
 
 **3.1.** Замените порт в dump на порт WordPress:
 ::
