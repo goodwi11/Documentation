@@ -119,7 +119,7 @@ WordPress CMS
 
 **Шаг 2.** Необходимо настроить NGINX/OpenResty на вашем сервере.
 
-.. note::
+.. important::
  | Замените ${} на соответствующие данные.
  | `${WP_PORT}` - порт где будет размещён WordPress. Например: 8080
  | `${SITE_PATH}` - путь где находится файл с WordPress. Например: /way/to/wordpress/folder
