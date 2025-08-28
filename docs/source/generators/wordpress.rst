@@ -117,7 +117,7 @@ WordPress CMS
  | `${WP_PORT}` - порт где будет размещён WordPress. Например: 8080
  | `${SITE_PATH}` - путь где находится файл с WordPress. Например: /way/to/wordpress/folder
  | `${SITE_URL}` - URL домена, где будет размещён WordPress. Например: https://example.com
- | `${SQL_FILE}` - имя файла дампа базы данных из скаченного архива WordPress. Например: db.sql
+ | `${SQL_FILE}` - имя файла дампа базы данных из архива WordPress. Например: db.sql
 
 Пример конфигурации веб-сервера NGINX:
 ::
