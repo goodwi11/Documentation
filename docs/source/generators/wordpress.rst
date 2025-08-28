@@ -119,13 +119,6 @@ WordPress CMS
 
 **Шаг 2.** Необходимо настроить NGINX/OpenResty на вашем сервере.
 
-.. important::
- | Замените ${} на соответствующие данные.
- | `${WP_PORT}` - порт где будет размещён WordPress. Например: 8080
- | `${SITE_PATH}` - путь где находится файл с WordPress. Например: /way/to/wordpress/folder
- | `${SITE_URL}` - URL домена, где будет размещён WordPress. Например: https://example.com
- | `${SQL_FILE}` - имя файла дампа базы данных из архива WordPress. Например: db.sql
-
 Пример конфигурации:
 ::
  map $http_x_forwarded_proto $fastcgi_https {
@@ -192,6 +185,13 @@ WordPress CMS
 
 Команды для ручной настройки WordPress:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+ | Замените ${} на соответствующие данные.
+ | `${WP_PORT}` - порт где будет размещён WordPress. Например: 8080
+ | `${SITE_PATH}` - путь где находится файл с WordPress. Например: /way/to/wordpress/folder
+ | `${SITE_URL}` - URL домена, где будет размещён WordPress. Например: https://example.com
+ | `${SQL_FILE}` - имя файла дампа базы данных из архива WordPress. Например: db.sql
 
 **Шаг 4.** Замените порт в *dump* на порт где будет работать WordPress:
 ::
