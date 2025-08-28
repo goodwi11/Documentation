@@ -104,7 +104,4 @@ cat <<EOF
 
 ✅ White successfully applied in  Folder ./$(basename "$SITE_DIR")
 
-📌 For start working WP site use this command:
-   wp server --path=./$(basename "$SITE_DIR") --host=$WP_HOST --port=$WP_PORT --allow-root
-
 EOF

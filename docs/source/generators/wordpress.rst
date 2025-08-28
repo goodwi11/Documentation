@@ -93,7 +93,7 @@ WordPress CMS
 .. note::
  Примеры конфигурций будут описаны под NGINX/OpenResty.
 
-**Шаг 1.** Установите инструмент wp_cli для корректной работы WordPress:
+**Шаг 1.** Установите инструмент *wp_cli* для корректной работы WordPress:
 ::
  curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
  php wp-cli.phar --info
@@ -121,7 +121,6 @@ WordPress CMS
 
 .. note::
  | Замените ${} на соответствующие данные.
- | `${SITE_PORT}` - порт где будет размещён ваш домен. Например: 80
  | `${WP_PORT}` - порт где будет размещён WordPress. Например: 8080
  | `${SITE_PATH}` - путь где находится файл с WordPress. Например: /way/to/wordpress/folder
  | `${SITE_URL}` - URL домена, где будет размещён WordPress. Например: https://example.com
@@ -194,13 +193,13 @@ WordPress CMS
 Команды для ручной настройки WordPress:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Шаг 4.** Замените порт в dump на порт где будет работать WordPress:
+**Шаг 4.** Замените порт в *dump* на порт где будет работать WordPress:
 ::
  sed -i -E "s#(http://[^:]+:)[0-9]+#\1${WP_PORT}#g" "${SQL_FILE}"
 
 **Шаг 5.** Импортируйте *db.sql* и создайте *wpuser* в базе данных.
 
-**Шаг 5.1.** Пропишите данные **(DB_NAME, DB_USER, DB_PASSWORD)** для работы с базой данных в файле *wp-config.php*.
+**5.1.** Пропишите данные (DB_NAME, DB_USER, DB_PASSWORD) для работы с базой данных в файле *wp-config.php*.
 
 **Шаг 6.** Для корректной работы *https* выполните замену пути к WordPress:
 ::
