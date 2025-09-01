@@ -78,7 +78,7 @@ WordPress CMS
    "**Password**", `0!1#EHxp&K5{x9$%`
    "**Email**", `admin@wordpress.com`
 
-При необходимости вы можете заменить данные для входа в панель адмнистратора используя команду ниже:
+При необходимости вы можете заменить данные для входа в панель администратора используя команду ниже:
 ::
  wp user --path="${SITE_PATH}" update 1 --user_login=new_login
  wp user --path="${SITE_PATH}" update admin --user_email=new@email.com
@@ -109,13 +109,13 @@ WordPress CMS
  sudo systemctl enable mysql
  sudo systemctl start mysql
 
+.. note::
+ Вместо MySQL Server может быть использована другая база данных: MySQL, Percona или MariaDB.
+
 **1.2.** Выдайте разрешение на работу NGINX/OpenResty c файлами *php-fpm*:
 ::
  sudo usermod -aG www-data nginx
  sudo systemctl restart nginx
-
-.. note::
- Вместо MySQL Server может быть использована другая база данных: MySQL, Percona или MariaDB.
 
 **Шаг 2.** Необходимо настроить NGINX/OpenResty на вашем сервере.
 
@@ -193,7 +193,7 @@ WordPress CMS
  | `${SITE_URL}` - URL домена, где будет размещён WordPress. Например: https://example.com
  | `${SQL_FILE}` - имя файла дампа базы данных из архива WordPress. Например: db.sql
 
-**Шаг 4.** Замените порт в *dump* на порт где будет работать WordPress:
+**Шаг 4.** Замените порт в *db.sql* на порт где будет работать WordPress:
 ::
  sed -i -E "s#(http://[^:]+:)[0-9]+#\1${WP_PORT}#g" "${SQL_FILE}"
 
