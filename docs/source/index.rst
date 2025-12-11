@@ -10,18 +10,18 @@
 .. toctree::
 
    overview
-   recommend
-   promode
+   recommendations
+   pro_mode
    setup
    generators/wordpress
    generators/safepage
-   generators/gp
-   generators/ap
-   generators/ms
-   generators/as
+   generators/googlepage
+   generators/applepage
+   generators/microsoftpage
+   generators/amazonpage
    tools
    api
-   clo
-   refsystem
+   cloaking
+   referral_program
 
 
