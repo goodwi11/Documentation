@@ -9,7 +9,7 @@
 
 .. toctree::
 
-   view
+   overview
    recommend
    promode
    setup
