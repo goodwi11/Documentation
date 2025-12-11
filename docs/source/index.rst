@@ -1,3 +1,6 @@
+.. meta::
+   :description lang=ru: Документация Comsign
+
 Документация Comsign
 ====================
 
