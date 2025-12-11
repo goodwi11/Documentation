@@ -10,6 +10,7 @@ release = '1.0'
 version = '1.5.1'
 html_title = 'Comsign Documentation'
 html_permalinks = False
+html_add_permalinks = ''
 
 # -- General configuration
 
