@@ -4,7 +4,7 @@
 # -- Project information
 
 project = 'Comsign'
-copyright = 'Comsign © 2020–2025.'
+copyright = 'Comsign © 2020–2026.'
 
 release = '1.0'
 version = '1.5.1'

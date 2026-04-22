@@ -13,6 +13,7 @@
    recommendations
    pro_mode
    setup
+   generators/ai
    generators/wordpress
    generators/safepage
    generators/googlepage
