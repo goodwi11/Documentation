@@ -11,7 +11,6 @@
 
    overview
    recommendations
-   pro_mode
    generators/ai
    generators/wordpress
    generators/safepage
